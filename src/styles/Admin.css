@@ -1,0 +1,236 @@
+.logOutBtn{
+    position: absolute;
+    top: 1.5rem;
+    z-index: 1000;
+    right: 2%;
+    /* width: 100px; */
+    padding: 1.2rem;
+    /* background-color: #4A4037; */
+    background-color: rgb(50, 112, 199);
+
+    color: #f5f5f5;
+    border: 1px solid rgb(50, 112, 199);
+    border-radius: 12px;
+    font-family: 'Georgia', serif;
+    font-size: 1.1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: var(--transition);
+
+  }
+  .logOutBtn:hover{
+    background: transparent;
+    color: rgb(50, 112, 199);
+  }
+
+  .adminPage h1{
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .adminPage .searchDiv{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  .adminPage .searchDiv input[type='text']{
+
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid rgb(50, 112, 199);
+    padding: 1.5rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    background: transparent;
+  }
+
+  /* .adminPage p, .adminPage input, .adminPage h3{
+    margin-left: 5%;
+  } */
+
+  .adminPage h3{
+    text-align: center;
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  .adminPage p {
+    font-weight: 500;
+    margin: 1rem 0 0.9rem 5rem;
+  }
+  
+  .adminPage .radioDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .adminPage .radio-input {
+    /* margin-right: 5px; */
+
+    transform: scale(1.2);
+  }
+
+  .firstRadio{
+    margin-left: 5rem;
+  }
+
+  .adminPage p span{
+    font-weight: bold;
+    color: #2e2b26;
+
+  }
+
+  .adminPage hr{
+    background-color: rgb(50, 112, 199);
+    height: 0.1px;
+    border: 0;
+  }
+
+
+  .adminPage input[type="radio"] {
+    accent-color: rgb(50, 112, 199); 
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px auto;
+  }
+  
+  th, td {
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 1px solid #eaeaea;
+  }
+
+  td{
+    font-weight: 100px;
+  }
+  tr{
+    transition:  var(--transition);
+  }
+  tr:hover {
+    background-color: #f0f8ff;
+  }
+  
+  /* th{
+    color: rgb(50, 112, 199);
+  } */
+  th {
+    background-color: #f1f5f9;
+    color: rgb(50, 112, 199);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+  }
+  
+  /* tr:nth-child(odd){
+    background: #fff;
+  } */
+  tr:nth-child(even) {
+    background-color: rgb(34, 88, 164);
+    color: #fff;
+  }
+  tr:nth-child(even):hover {
+    background-color: rgb(40, 98, 156);
+    color: #fff;
+  }
+
+  @media screen and (max-width: 1024px ){
+    .logOutBtn{
+      padding: 0.8rem;
+      font-size: 0.8rem;
+    }
+
+    .adminPage h1{
+      font-size: 1.5rem;
+      margin-top: 1.5rem;
+    }
+
+    .adminPage .searchDiv input[type='text']{
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+
+    .adminPage p{
+      font-size: 0.9rem;
+    }
+
+    .adminPage .radioDiv{
+      gap: 0.5rem;
+      font-size: 0.9rem;
+    }
+     
+    .adminPage h3{
+      font-size: 0.9rem;
+      padding: 0.5rem;
+    }
+
+    th, td {
+      padding: 0.7rem;
+    }
+
+    th{
+      font-size: 0.8rem;
+    }
+
+    td{
+      font-size: 0.75rem;
+    }
+
+  }
+
+
+  @media (max-width: 600px ){
+    .adminPage h1{
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+    table{
+        font-size: small;
+    }
+    .logOutBtn{
+        font-size: 0.9rem;
+        padding: 0.8rem;
+        top: 1.8rem;
+    }
+    .adminPage .searchDiv input[type='text']{
+ 
+        width: 80%;
+        /* max-width: 200px; */
+        font-size: 0.7rem;
+        /* margin-bottom: 0rem; */
+      }
+      .searchDiv{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      th{
+        font-size: 0.6rem;
+      }
+      .adminPage .searchDiv{
+        margin-bottom: 0rem;
+
+      }
+      .adminPage .attendance{
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+      }
+      .adminPage p {
+        font-weight: 500;
+        margin: 0.8rem 0 1rem 2rem;
+      }
+
+      .adminPage .radioDiv{
+        display: flex;
+        flex-direction: row;
+        gap: 0.3rem;
+      }
+
+      .firstRadio{
+        margin-left: 2rem;
+      }
+  }

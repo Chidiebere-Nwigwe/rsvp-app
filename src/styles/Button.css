@@ -1,0 +1,30 @@
+.backBtn{
+    position: absolute;
+    top: 1.5rem;
+    z-index: 1000;
+    left: 2%;
+    /* width: 100px; */
+    padding: 1.2rem;
+    /* background-color: #4A4037; */
+    background-color: #4A4037;
+
+    color: #f5f5f5;
+    border: 1px solid #4A4037;
+    border-radius: 12px;
+    font-family: 'Georgia', serif;
+    font-size: 1.1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.backBtn:hover{
+    background: transparent;
+    color: #4A4037;
+}
+@media screen and (max-width: 600px) {
+    .backBtn{
+        font-size: 1rem;
+        padding: 1rem;
+    }
+}
