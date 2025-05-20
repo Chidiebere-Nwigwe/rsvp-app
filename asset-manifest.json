@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/rsvp-app/static/css/main.fbc479b5.css",
-    "main.js": "/rsvp-app/static/js/main.ee6310b1.js",
+    "main.js": "/rsvp-app/static/js/main.f032c863.js",
     "static/js/453.74355929.chunk.js": "/rsvp-app/static/js/453.74355929.chunk.js",
     "index.html": "/rsvp-app/index.html",
     "main.fbc479b5.css.map": "/rsvp-app/static/css/main.fbc479b5.css.map",
-    "main.ee6310b1.js.map": "/rsvp-app/static/js/main.ee6310b1.js.map",
+    "main.f032c863.js.map": "/rsvp-app/static/js/main.f032c863.js.map",
     "453.74355929.chunk.js.map": "/rsvp-app/static/js/453.74355929.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fbc479b5.css",
-    "static/js/main.ee6310b1.js"
+    "static/js/main.f032c863.js"
   ]
 }
