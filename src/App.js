@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import RSVP from './pages/RSVP';
 import LoginPage from './pages/LoginPage';
 import SignUpPage from './pages/SignUpPage';
@@ -9,10 +9,10 @@ function App() {
   return (
     <Router>
       <Routes>
-          <Route path='/' element={<RSVP />}></Route>
-          <Route path='/signin' element={<LoginPage />}></Route>
-          <Route path='/signup' element={<SignUpPage />}></Route>
-          <Route path='/admin' element={<AdminPage />}></Route>
+        <Route path='/' element={<RSVP />} />
+        <Route path='/signin' element={<LoginPage />} />
+        <Route path='/signup' element={<SignUpPage />} />
+        <Route path='/admin' element={<AdminPage />} />
       </Routes>
     </Router>
   );
